@@ -19,7 +19,7 @@ export default function Home() {
               Hyman's Travel Journal
             </h1>
             <p className="text-lg text-muted-foreground" style={{ fontFamily: 'Poppins, sans-serif' }}>
-              Paris & Mykonos · April 30 - May 8, 2026
+              巴黎 & 米科诺斯 · 4月30日 - 5月8日
             </p>
           </div>
         </div>
@@ -31,19 +31,19 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <p className="text-base text-muted-foreground mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                ✨ A curated travel experience combining art, culture, and culinary delights across two iconic European destinations.
+                ✨ 一场精心策划的旅行体验，融合艺术、文化与美食，跨越两个标志性的欧洲目的地。
               </p>
               <div className="flex flex-wrap gap-3">
                 <div className="bg-white rounded-lg p-3 shadow-sm">
-                  <p className="text-sm text-muted-foreground" style={{ fontFamily: 'Poppins, sans-serif' }}>Duration</p>
-                  <p className="text-lg text-primary" style={{ fontFamily: 'Caveat, cursive' }}>9 Days</p>
+                  <p className="text-sm text-muted-foreground" style={{ fontFamily: 'Poppins, sans-serif' }}>时长</p>
+                  <p className="text-lg text-primary" style={{ fontFamily: 'Caveat, cursive' }}>9天</p>
                 </div>
                 <div className="bg-white rounded-lg p-3 shadow-sm">
-                  <p className="text-sm text-muted-foreground" style={{ fontFamily: 'Poppins, sans-serif' }}>Cities</p>
-                  <p className="text-lg text-primary" style={{ fontFamily: 'Caveat, cursive' }}>2</p>
+                  <p className="text-sm text-muted-foreground" style={{ fontFamily: 'Poppins, sans-serif' }}>城市</p>
+                  <p className="text-lg text-primary" style={{ fontFamily: 'Caveat, cursive' }}>2个</p>
                 </div>
                 <div className="bg-white rounded-lg p-3 shadow-sm">
-                  <p className="text-sm text-muted-foreground" style={{ fontFamily: 'Poppins, sans-serif' }}>Experiences</p>
+                  <p className="text-sm text-muted-foreground" style={{ fontFamily: 'Poppins, sans-serif' }}>体验</p>
                   <p className="text-lg text-primary" style={{ fontFamily: 'Caveat, cursive' }}>∞</p>
                 </div>
               </div>
@@ -63,9 +63,9 @@ export default function Home() {
       <section className="py-12 border-b border-border">
         <div className="container px-4">
           <div className="mb-8">
-            <h2 className="text-4xl text-primary mb-2" style={{ fontFamily: 'Caveat, cursive' }}>🇫🇷 PARIS</h2>
+            <h2 className="text-4xl text-primary mb-2" style={{ fontFamily: 'Caveat, cursive' }}>🇫🇷 巴黎</h2>
             <p className="text-base text-muted-foreground" style={{ fontFamily: 'Poppins, sans-serif' }}>
-              April 30 - May 3 · Art, Culture & Romance
+              4月30日 - 5月3日 · 艺术、文化与浪漫
             </p>
           </div>
 
@@ -96,9 +96,9 @@ export default function Home() {
       <section className="py-12">
         <div className="container px-4">
           <div className="mb-8">
-            <h2 className="text-4xl text-primary mb-2" style={{ fontFamily: 'Caveat, cursive' }}>🇬🇷 MYKONOS</h2>
+            <h2 className="text-4xl text-primary mb-2" style={{ fontFamily: 'Caveat, cursive' }}>🇬🇷 米科诺斯</h2>
             <p className="text-base text-muted-foreground" style={{ fontFamily: 'Poppins, sans-serif' }}>
-              May 4 - May 8 · Island Paradise & Ancient Wonders
+              5月4日 - 5月8日 · 岛屿天堂与古代奇迹
             </p>
           </div>
 
@@ -133,7 +133,7 @@ export default function Home() {
       {/* Food & Wine Section */}
       <section className="py-12 bg-secondary/20 border-t border-border">
         <div className="container px-4">
-          <h2 className="text-4xl text-primary mb-6" style={{ fontFamily: 'Caveat, cursive' }}>🍷 Culinary Journey</h2>
+          <h2 className="text-4xl text-primary mb-6" style={{ fontFamily: 'Caveat, cursive' }}>🍷 美食之旅</h2>
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <img
               src="https://d2xsxph8kpxj0f.cloudfront.net/310519663344760698/iTNCRBAbnhMXFfonuHK58r/food-wine-illustration-6GLTsR4KSfFS9j3qqXNadG.webp"
@@ -142,13 +142,13 @@ export default function Home() {
             />
             <div>
               <p className="text-base text-muted-foreground mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                This journey celebrates the finest culinary traditions of France and Greece. From intimate bistros in the Marais to hidden tavernas on the Aegean, every meal tells a story.
+                这场旅行庆祝法国和希腊最精美的烹饪传统。从玛黑区的亲密小酒馆到爱琴海的隐秘酒馆，每一餐都讲述着一个故事。
               </p>
               <div className="space-y-3">
                 <div className="bg-white rounded-lg p-4 shadow-sm border-l-4 border-primary">
-                  <p className="text-lg text-primary" style={{ fontFamily: 'Caveat, cursive' }}>Pro Tip</p>
+                  <p className="text-lg text-primary" style={{ fontFamily: 'Caveat, cursive' }}>专业建议</p>
                   <p className="text-sm text-muted-foreground" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                    Always book ahead at popular restaurants, especially on weekends and holidays.
+                    一定要提前预订热门餐厅，尤其是周末和假日。
                   </p>
                 </div>
               </div>
@@ -160,7 +160,7 @@ export default function Home() {
       {/* Tips Section */}
       <section className="py-12 border-t border-border">
         <div className="container px-4">
-          <h2 className="text-4xl text-primary mb-8" style={{ fontFamily: 'Caveat, cursive' }}>💡 Travel Tips</h2>
+          <h2 className="text-4xl text-primary mb-8" style={{ fontFamily: 'Caveat, cursive' }}>💡 旅行贴士</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {tips.map((tip, idx) => (
               <div
@@ -183,9 +183,9 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-primary text-primary-foreground py-8 border-t border-border">
         <div className="container px-4 text-center">
-          <p className="text-lg mb-2" style={{ fontFamily: 'Caveat, cursive' }}>Safe travels, Hyman!</p>
+          <p className="text-lg mb-2" style={{ fontFamily: 'Caveat, cursive' }}>祝您旅途愉快，Hyman！</p>
           <p className="text-sm opacity-90" style={{ fontFamily: 'Poppins, sans-serif' }}>
-            Created with ❤️ for unforgettable memories
+            用❤️为难忘的回忆而创作
           </p>
         </div>
       </footer>
@@ -270,149 +270,137 @@ function DayCard({
 const parisItinerary = [
   {
     id: 'day1',
-    title: 'Day 1 · Arrival & Awakening',
-    date: 'April 30 (Thursday)',
+    title: '第1天 · 抵达与苏醒',
+    date: '4月30日（周四）',
     activities: [
       {
         icon: '☕',
-        time: 'Afternoon',
-        title: 'Canal Saint-Martin Stroll',
-        location: 'Canal Saint-Martin, 10th Arrondissement',
-        address: '15 min walk from hotel',
-        description:
-          'Wander along the picturesque canal where locals gather. Find a cozy café and sit down to ease into Parisian time.',
-        tips: 'After long flights, avoid heavy sightseeing. Let your body adjust naturally.',
+        time: '下午',
+        title: '圣马丁运河漫步',
+        location: '圣马丁运河，第10区',
+        address: '距酒店步行15分钟',
+        description: '沿着风景如画的运河漫步，当地人在此聚集。找一家舒适的咖啡馆坐下，慢慢适应巴黎时间。',
+        tips: '长途飞行后避免重度观光。让身体自然调整。',
       },
       {
         icon: '🍽️',
-        time: 'Dinner',
+        time: '晚餐',
         title: 'Chez Jeannette',
         location: 'Chez Jeannette',
         address: '47 Rue du Faubourg Saint-Denis, 10th Arr.',
-        description:
-          'Casual bistro where artists and workers mix. Perfect for recovering from jet lag without formality.',
-        tips: 'No dress code needed. Budget-friendly with consistent quality.',
+        description: '随意的小酒馆，艺术家和工人混杂。完美的时差恢复餐厅，无需正装。',
+        tips: '无着装要求。价格便宜，品质稳定。',
       },
     ],
   },
   {
     id: 'day2',
-    title: 'Day 2 · Art Deep Dive',
-    date: 'May 1 (Friday, Labor Day)',
+    title: '第2天 · 艺术深度之旅',
+    date: '5月1日（周五，劳动节）',
     activities: [
       {
         icon: '🎨',
-        time: 'Morning',
-        title: 'Musée National Picasso-Paris',
-        location: 'Marais District',
+        time: '上午',
+        title: '毕加索博物馆',
+        location: '玛黑区',
         address: '5 Rue de Thorigny, 75003 Paris',
-        description:
-          'Over 5,000 works in a historic mansion. The building itself is a masterpiece, less crowded than the Louvre.',
-        tips: '⚠️ Many museums close on May 1st, but Picasso Museum usually stays open. Confirm before visiting.',
+        description: '超过5000件作品的历史豪宅。建筑本身就是杰作，比卢浮宫人少。',
+        tips: '⚠️ 5月1日很多博物馆关闭，但毕加索博物馆通常开放。出发前确认。',
       },
       {
         icon: '🥘',
-        time: 'Lunch',
-        title: 'Marché des Enfants Rouges',
-        location: 'Red Children Market',
+        time: '午餐',
+        title: '红孩子市场',
+        location: '红孩子市场',
         address: '39 Rue de Bretagne, 75003 Paris',
-        description:
-          'Paris\'s oldest covered market (since 1628). A lively food hall with French, Japanese, Italian, and African cuisines.',
-        tips: 'No reservations needed. Relaxed atmosphere, perfect for tasting local flavors.',
+        description: '巴黎最古老的有顶市场（建于1628年）。热闹的美食广场，提供法国、日本、意大利和非洲菜。',
+        tips: '无需预订。轻松氛围，完美品尝本地风味。',
       },
       {
         icon: '🏛️',
-        time: 'Afternoon',
-        title: 'Musée Carnavalet',
-        location: 'Marais District',
+        time: '下午',
+        title: '卡纳瓦莱博物馆',
+        location: '玛黑区',
         address: '23 Rue de Sévigné, 75003 Paris',
-        description:
-          'Dedicated to Paris history. Housed in two grand mansions with peaceful courtyards and exquisitely preserved rooms.',
-        tips: 'FREE admission! A hidden sanctuary away from crowds.',
+        description: '专门讲述巴黎历史的博物馆。坐落在两座宏伟的私人豪宅，拥有宁静的庭院和精美的古典房间。',
+        tips: '免费入场！远离人群的秘密避难所。',
       },
       {
         icon: '🍷',
-        time: 'Dinner',
+        time: '晚餐',
         title: 'Bistrot des Tournelles',
-        location: 'Near Place des Vosges',
+        location: '孚日广场附近',
         address: '6 Rue des Tournelles, 75004 Paris',
-        description:
-          'Vintage charm with old photos and hand-drawn signs. Classic French home cooking. Open 7-11pm only.',
-        tips: 'Book several days ahead. One of Paris\'s most nostalgic bistros. €40-70 per person.',
+        description: '复古魅力，老照片和手绘招牌。经典法式家常菜。仅供晚餐7-11点。',
+        tips: '提前几天预订。巴黎最有怀旧气质的小酒馆之一。人均40-70欧。',
       },
     ],
   },
   {
     id: 'day3',
-    title: 'Day 3 · Monet & Romantique',
-    date: 'May 2 (Saturday)',
+    title: '第3天 · 莫奈与浪漫',
+    date: '5月2日（周六）',
     activities: [
       {
         icon: '🎨',
-        time: 'Morning',
-        title: 'Musée Marmottan Monet',
-        location: '16th Arrondissement',
+        time: '上午',
+        title: '马莫坦莫奈博物馆',
+        location: '第16区',
         address: '2 Rue Louis Boilly, 75016 Paris',
-        description:
-          'World\'s largest Monet collection (100+ paintings) including the original "Impression, Sunrise" that named the movement. Underground oval gallery features his late Water Lilies.',
-        tips: 'Closed Mondays. Buy tickets online to skip queues. More intimate than Orangerie.',
+        description: '世界上最大的莫奈收藏（100+幅），包括《日出·印象》原作。地下椭圆展厅展示他晚期的睡莲。',
+        tips: '周一闭馆。官网提前买票避免排队。比橘园更亲密。',
       },
       {
         icon: '🌳',
-        time: 'Lunch',
-        title: 'Bois de Boulogne',
-        location: 'Forest Park',
-        address: 'Adjacent to Marmottan Museum',
-        description:
-          'One of Paris\'s most beautiful parks. Find a small restaurant or café for a leisurely lunch.',
-        tips: 'Perfect for a peaceful afternoon after the museum.',
+        time: '午餐',
+        title: '布洛涅森林',
+        location: '森林公园',
+        address: '毗邻马莫坦博物馆',
+        description: '巴黎最美的公园之一。找一家小餐厅悠闲午餐。',
+        tips: '博物馆后完美的宁静下午。',
       },
       {
         icon: '💕',
-        time: 'Afternoon',
-        title: 'Musée de la Vie Romantique',
-        location: 'Montmartre Foothills',
+        time: '下午',
+        title: '浪漫主义生活博物馆',
+        location: '蒙马特山脚',
         address: '16 Rue Chaptal, 75009 Paris',
-        description:
-          'Former home of painter Ary Scheffer where Chopin, George Sand, and Delacroix gathered. Intimate rooms filled with letters and memorabilia. Garden café is one of Paris\'s most beautiful hidden spots.',
-        tips: 'FREE admission. A sanctuary of romantic-era elegance.',
+        description: '画家Ary Scheffer的故居，肖邦、乔治·桑和德拉克洛瓦常聚于此。房间里充满画像、信件和纪念品。花园咖啡馆是巴黎最美的隐秘地点之一。',
+        tips: '免费入场。浪漫时代优雅的庇护所。',
       },
       {
         icon: '🍷',
-        time: 'Dinner',
+        time: '晚餐',
         title: 'Au Bourguignon du Marais',
-        location: 'Marais District',
+        location: '玛黑区',
         address: '52 Rue François Miron, 75004 Paris',
-        description:
-          'Modern, clean atmosphere serving Burgundy classics. The beef stew with Burgundy wine is legendary.',
-        tips: 'Don\'t miss the San Marcellin cheese for dessert!',
+        description: '现代干净的氛围，勃艮第经典菜肴。红酒炖牛肉是传奇菜肴。',
+        tips: '一定不要错过San Marcellin奶酪甜点！',
       },
     ],
   },
   {
     id: 'day4',
-    title: 'Day 4 · Slow Morning & Departure',
-    date: 'May 3 (Sunday)',
+    title: '第4天 · 慢晨光与离别',
+    date: '5月3日（周日）',
     activities: [
       {
         icon: '🥐',
-        time: 'Morning',
-        title: 'Marais Brunch & Shopping',
-        location: 'Rue de Bretagne Area',
-        address: 'Marais District, 75003 Paris',
-        description:
-          'Leisurely brunch and explore independent boutiques. Or rent a Vélib bike and ride along the canal.',
-        tips: 'Marais has wonderful design shops and galleries worth exploring.',
+        time: '上午',
+        title: '玛黑早午餐与购物',
+        location: '布雷塔尼街区',
+        address: '玛黑区，75003 Paris',
+        description: '悠闲的早午餐和探索独立精品店。或租一辆Vélib自行车沿运河骑行。',
+        tips: '玛黑有许多值得探索的设计师小店和画廊。',
       },
       {
         icon: '✈️',
-        time: 'Afternoon/Evening',
-        title: 'Transfer to Airport Hotel',
-        location: 'Charles de Gaulle Airport',
-        address: 'Paris CDG',
-        description:
-          'Two excellent options: Sheraton (direct connection to Terminal 2) or Pullman (with spa and dining).',
-        tips: 'Relax before your evening flight. Both hotels have excellent amenities.',
+        time: '下午/晚上',
+        title: '转移到机场酒店',
+        location: '戴高乐机场',
+        address: '巴黎CDG',
+        description: '两个优秀选择：Sheraton（直接连接2号航站楼）或Pullman（配有水疗和餐厅）。',
+        tips: '在航班前放松。两家酒店都有优秀的设施。',
       },
     ],
   },
@@ -421,201 +409,189 @@ const parisItinerary = [
 const mykonosItinerary = [
   {
     id: 'day5',
-    title: 'Day 5 · Arrival at Bill & Coo',
-    date: 'May 4 (Monday)',
+    title: '第5天 · 抵达Bill & Coo',
+    date: '5月4日（周一）',
     activities: [
       {
         icon: '🏨',
-        time: 'Afternoon',
-        title: 'Check-in & Settle In',
+        time: '下午',
+        title: '入住与放松',
         location: 'Bill & Coo Mykonos',
-        address: 'Megali Ammos Beach, 10 min walk to Old Town',
-        description:
-          'Boutique hotel with exceptional infinity pool and spa. The island\'s most mature luxury resort. Relax and acclimate.',
-        tips: 'Don\'t schedule activities on arrival day. Enjoy the hotel amenities.',
+        address: '梅加利阿莫斯海滩，距老城10分钟步行',
+        description: '拥有卓越无边泳池和水疗的精品酒店。岛上最成熟的奢华度假村。放松并适应环境。',
+        tips: '抵达日不要安排活动。享受酒店设施。',
       },
       {
         icon: '🍽️',
-        time: 'Dinner',
-        title: 'Kastro\'s (Little Venice)',
-        location: 'Mykonos Old Town',
-        address: 'Secret alley with best sea views',
-        description:
-          'Hidden gem with panoramic Aegean views and sunset vistas. Perfect for romantic dinner.',
-        tips: 'Arrive 1 hour before sunset. Request a table with windmill views.',
+        time: '晚餐',
+        title: 'Kastro\'s（小威尼斯）',
+        location: '米科诺斯老城',
+        address: '秘密小巷，拥有最佳海景',
+        description: '隐秘宝石，全景爱琴海景观和日落景致。完美的浪漫晚餐地点。',
+        tips: '日落前一小时到达。预订能看到风车的位置。',
       },
     ],
   },
   {
     id: 'day6',
-    title: 'Day 6 · Delos & Art Walk',
-    date: 'May 5 (Tuesday)',
+    title: '第6天 · 德洛斯岛与艺术漫步',
+    date: '5月5日（周二）',
     activities: [
       {
         icon: '⛴️',
-        time: 'Morning',
-        title: 'Ferry to Delos Island',
-        location: 'Old Port, Mykonos',
-        address: 'Depart 9:00 or 10:00 AM',
-        description:
-          'UNESCO World Heritage site. Birthplace of Apollo in mythology. Most important Aegean archaeological site. 30-min ferry ride.',
-        tips: '🌟 HIGHLY RECOMMENDED: Book a guided tour (€79 includes ferry + guide). Without a guide, you\'ll see stones; with one, you\'ll see 2000-year-old civilization.',
+        time: '上午',
+        title: '渡轮前往德洛斯岛',
+        location: '老港口，米科诺斯',
+        address: '上午9:00或10:00出发',
+        description: '联合国世界文化遗产。神话中阿波罗的诞生地。爱琴海最重要的考古遗址。渡轮单程30分钟。',
+        tips: '🌟 强烈推荐：预订导览游（€79包含渡轮+讲解）。没有导游你只看到石头；有导游你看到2000年前的文明。',
       },
       {
         icon: '🐟',
-        time: 'Lunch',
+        time: '午餐',
         title: 'Kounelas',
-        location: 'Old Port',
-        address: 'Near Mykonos Harbor',
-        description:
-          'Family-run fish taverna since 1960s. Fresh grilled fish, fried squid, octopus, Greek salad. Simple tables with harbor views.',
-        tips: '€25-40 per person. Authentic local experience. Let the ingredients speak for themselves.',
+        location: '老港口',
+        address: '米科诺斯港口附近',
+        description: '自1960年代经营的家族鱼餐馆。新鲜烤鱼、炸鱿鱼、章鱼、希腊沙拉。简单的桌椅和港口景观。',
+        tips: '人均€25-40。地道本地体验。让食材自己说话。',
       },
       {
         icon: '🎨',
-        time: 'Afternoon',
-        title: 'Old Town Art Walk',
-        location: 'Mykonos Old Town',
-        address: 'Matogianni Street & surrounding alleys',
-        description:
-          'Winding streets with art galleries, linen boutiques, handmade jewelry shops. Visit Minima Gallery and Rarity Gallery for serious contemporary art.',
-        tips: 'Get lost in the narrow streets. Best discoveries happen by wandering.',
+        time: '下午',
+        title: '老城艺术漫步',
+        location: '米科诺斯老城',
+        address: 'Matogianni街及周围小巷',
+        description: '蜿蜒的街道隐藏着艺术画廊、亚麻精品店和手工珠宝店。参观Minima Gallery和Rarity Gallery了解当代艺术。',
+        tips: '在狭窄的街道中迷路。最好的发现来自漫步。',
       },
       {
         icon: '🌅',
-        time: 'Sunset',
-        title: '180° Sunset Bar',
-        location: 'Hillside Overlooking Town',
-        address: 'Mountain viewpoint',
-        description:
-          'Panoramic views of Old Town, windmills, and harbor. Fewer tourists than Little Venice.',
-        tips: 'Relaxed atmosphere. Perfect for watching the sun dip into the Aegean.',
+        time: '日落',
+        title: '180°日落酒吧',
+        location: '山顶俯瞰城镇',
+        address: '山顶观景点',
+        description: '全景俯瞰老城、风车和港口。游客比小威尼斯少。',
+        tips: '轻松氛围。完美观看太阳沉入爱琴海。',
       },
     ],
   },
   {
     id: 'day7',
-    title: 'Day 7 · Hotel Switch & Ano Mera',
-    date: 'May 6 (Wednesday)',
+    title: '第7天 · 酒店转移与Ano Mera',
+    date: '5月6日（周三）',
     activities: [
       {
         icon: '☀️',
-        time: 'Morning',
-        title: 'Leisurely Breakfast at Bill & Coo',
+        time: '上午',
+        title: 'Bill & Coo的悠闲早餐',
         location: 'Bill & Coo Mykonos',
-        address: 'Poolside',
-        description: 'Enjoy the last morning at your first hotel.',
-        tips: 'Savor the infinity pool views.',
+        address: '泳池边',
+        description: '享受在第一家酒店的最后一个上午。',
+        tips: '品味无边泳池的景观。',
       },
       {
         icon: '🏨',
-        time: 'Midday',
-        title: 'Transfer to Kalesma Mykonos',
-        location: 'Ornos Area',
-        address: 'Contemporary Cycladic design by Vangelis Bonios',
-        description:
-          'Design-forward luxury. Each villa has its own pool. The architecture is contemporary art.',
-        tips: 'Spend afternoon exploring your new villa and the main pool.',
+        time: '中午',
+        title: '转移到Kalesma Mykonos',
+        location: 'Ornos区',
+        address: '由著名设计师Vangelis Bonios设计的当代基克拉迪风格',
+        description: '设计前沿的奢华。每个别墅都有自己的泳池。建筑本身就是当代艺术。',
+        tips: '下午探索新别墅和主泳池。',
       },
       {
         icon: '🍽️',
-        time: 'Dinner',
+        time: '晚餐',
         title: 'Bistrot de Nicolas',
-        location: 'Ano Mera Village',
-        address: '15 min drive from Kalesma',
-        description:
-          'Charming French-Mediterranean bistro. Creative, refined cuisine using fresh ingredients. Excellent wine list. Serves mainly locals.',
-        tips: '⭐ One of the island\'s most underrated restaurants. Highly recommended.',
+        location: 'Ano Mera村',
+        address: '距Kalesma约15分钟车程',
+        description: '迷人的法式地中海小酒馆。创意精致的菜肴，使用最新鲜食材。出色的葡萄酒单。主要服务本地人。',
+        tips: '⭐ 岛上最被低估的餐厅之一。强烈推荐。',
       },
     ],
   },
   {
     id: 'day8',
-    title: 'Day 8 · Wild Landscapes & Hidden Beaches',
-    date: 'May 7 (Thursday)',
+    title: '第8天 · 野生风景与隐秘海滩',
+    date: '5月7日（周四）',
     activities: [
       {
         icon: '☕',
-        time: 'Morning',
-        title: 'Breakfast & Spa at Kalesma',
+        time: '上午',
+        title: 'Kalesma早餐与水疗',
         location: 'Kalesma Mykonos',
         address: 'Ornos',
-        description: 'Enjoy spa or yoga session.',
-        tips: 'Most relaxing day of the trip.',
+        description: '享受水疗或瑜伽课程。',
+        tips: '旅行中最放松的一天。',
       },
       {
         icon: '🍽️',
-        time: 'Lunch',
+        time: '午餐',
         title: 'Fokos Taverna',
-        location: 'Northern Mykonos',
-        address: 'Remote beach, end of dirt road',
-        description:
-          'Feels like 1970s Mykonos. Stone buildings shaded by tamarisk trees. Simple menu changes with daily catch. Saganaki cheese with honey is a must. Atmosphere: zero rush, sea sounds instead of speakers.',
-        tips: '€30-50 for two. Most authentic, most local experience. Beach remains undeveloped.',
+        location: '米科诺斯北部',
+        address: '偏远海滩，土路尽头',
+        description: '感觉像1970年代的米科诺斯。柽柳树荫下的石头建筑。简短菜单随季节和当日捕获变化。蜂蜜淋浇的saganaki奶酪是必点。氛围：零匆忙，海浪声而非音箱。',
+        tips: '两人€30-50。最地道、最本地的体验。海滩保持原始未开发。',
       },
       {
         icon: '🌊',
-        time: 'Afternoon',
-        title: 'Beach Walk at Fokos',
-        location: 'Fokos Beach',
-        address: 'Northern Mykonos',
-        description: 'Collect shells, watch the sea, meditate.',
-        tips: 'Pure relaxation.',
+        time: '下午',
+        title: 'Fokos海滩漫步',
+        location: 'Fokos海滩',
+        address: '米科诺斯北部',
+        description: '捡贝壳，看海，冥想。',
+        tips: '纯粹放松。',
       },
       {
         icon: '🍷',
-        time: 'Dinner',
-        title: 'Pere Pere or Kalesma\'s Pere',
-        location: 'Mykonos Town or Kalesma',
-        address: 'Natural wine bistro or hotel restaurant',
-        description:
-          'Cycladic ingredients, creative but not pretentious. Chef Nikos Roussos\'s cuisine is island-authentic.',
-        tips: 'Exceptional reputation for quality.',
+        time: '晚餐',
+        title: 'Pere Pere或Kalesma的Pere',
+        location: '米科诺斯城镇或Kalesma',
+        address: '自然葡萄酒小酒馆或酒店餐厅',
+        description: '基克拉迪食材，创意但不浮夸。主厨Nikos Roussos的菜肴是岛屿真正的代表。',
+        tips: '卓越的品质声誉。',
       },
     ],
   },
   {
     id: 'day9',
-    title: 'Day 9 · Graceful Departure',
-    date: 'May 8 (Friday)',
+    title: '第9天 · 从容离岛',
+    date: '5月8日（周五）',
     activities: [
       {
         icon: '🥐',
-        time: 'Morning',
-        title: 'Final Breakfast & Pool Time',
+        time: '上午',
+        title: '最后的早餐与泳池时光',
         location: 'Kalesma Mykonos',
         address: 'Ornos',
-        description: 'Savor the last moments.',
-        tips: 'Take time to absorb the beauty.',
+        description: '品味最后的时刻。',
+        tips: '花时间吸收美景。',
       },
       {
         icon: '⛪',
-        time: 'Optional',
-        title: 'Panagia Tourliani Monastery',
+        time: '可选',
+        title: 'Panagia Tourliani修道院',
         location: 'Ano Mera',
-        address: 'Village of Ano Mera',
-        description:
-          '18th-century monastery with exquisite Byzantine wooden iconostasis. Island\'s most important religious artwork.',
-        tips: 'If time permits before lunch.',
+        address: 'Ano Mera村',
+        description: '18世纪修道院，拥有精美的拜占庭木制圣像屏。岛上最重要的宗教艺术品。',
+        tips: '如果午餐前有时间。',
       },
       {
         icon: '🐟',
-        time: 'Lunch',
-        title: 'Kiki\'s Tavern (Optional)',
-        location: 'Agios Sostis Beach',
-        address: 'Legendary local spot',
-        description:
-          'No electricity, no reservations, charcoal grill only. Expect to wait. Lunch only. Extremely local.',
-        tips: '🌟 Island legend. Most authentic experience.',
+        time: '午餐',
+        title: 'Kiki\'s Tavern（可选）',
+        location: 'Agios Sostis海滩',
+        address: '传奇本地地点',
+        description: '无电、无预订系统、仅用炭火烤。预期等位。仅供午餐。极度本地。',
+        tips: '🌟 岛屿传奇。最地道的体验。',
       },
       {
         icon: '✈️',
-        time: 'Afternoon',
-        title: 'Depart for Airport',
-        location: 'Mykonos Airport',
+        time: '下午',
+        title: '前往机场',
+        location: '米科诺斯机场',
         address: 'JMY',
-        description: 'Fly home with unforgettable memories.',
-        tips: 'Safe travels!',
+        description: '带着难忘的回忆飞回家。',
+        tips: '祝您旅途愉快！',
       },
     ],
   },
@@ -624,38 +600,32 @@ const mykonosItinerary = [
 const tips = [
   {
     icon: '📅',
-    title: 'Booking Strategy',
-    content:
-      'Reserve popular restaurants several days in advance, especially for weekends and holidays. Museums often have online booking to skip queues.',
+    title: '预订策略',
+    content: '提前几天预订热门餐厅，尤其是周末和假日。博物馆通常提供在线预订以跳过队伍。',
   },
   {
     icon: '🚶',
-    title: 'Explore on Foot',
-    content:
-      'The best discoveries happen while walking. Get lost in narrow streets, stumble upon hidden galleries, and connect with locals.',
+    title: '步行探索',
+    content: '最好的发现来自步行。在狭窄的街道中迷路，发现隐秘的画廊，与当地人交流。',
   },
   {
     icon: '🍽️',
-    title: 'Eat Where Locals Eat',
-    content:
-      'Avoid tourist-heavy areas. Seek out family-run tavernas and neighborhood bistros where locals gather for authentic flavors.',
+    title: '在本地人吃饭的地方吃饭',
+    content: '避免游客众多的区域。寻找家族经营的酒馆和街区小酒馆，当地人聚集的地方品尝地道风味。',
   },
   {
     icon: '⏰',
-    title: 'Pace Yourself',
-    content:
-      'Don\'t rush from sight to sight. Allow time to sit in cafés, watch people, and absorb the atmosphere. Quality over quantity.',
+    title: '调整节奏',
+    content: '不要匆匆从一个景点赶到另一个。留出时间在咖啡馆坐着，观察人群，吸收氛围。质量优于数量。',
   },
   {
     icon: '🗺️',
-    title: 'Local Transportation',
-    content:
-      'Use metro in Paris and taxis/hotel transfers in Mykonos. Vélib bikes in Paris are fun for leisurely rides along canals.',
+    title: '本地交通',
+    content: '在巴黎使用地铁，在米科诺斯使用出租车/酒店接驳。巴黎的Vélib自行车非常适合沿运河的悠闲骑行。',
   },
   {
     icon: '📸',
-    title: 'Capture & Experience',
-    content:
-      'Take photos, but also put down your phone. The best memories come from being fully present in the moment.',
+    title: '拍照与体验',
+    content: '拍照，但也要放下手机。最好的回忆来自完全沉浸在当下的时刻。',
   },
 ];
